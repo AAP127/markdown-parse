@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class MarkdownParse2Tester {
+public class MarkdownParseTester {
     
     @Test
     public void testParse1() throws IOException {
