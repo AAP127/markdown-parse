@@ -38,7 +38,7 @@ public class MarkdownParse {
             if(goodFormat){
                 String webName =  markdown.substring(nextOpenBracket+1, 
                     nextCloseBracket);
-                if(webName.length()==0 || webName.contains(" ")){
+                if(webName.length()==0){
                     validWebsiteName = false;
                 }
             }
@@ -58,7 +58,7 @@ public class MarkdownParse {
             }
 
             //If valid format and website name, add link; increment for next iteration
-            if(goodFormat && validWebsiteName){
+            if(goodFormat){
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
             currentIndex = closeParen + 1;
