@@ -19,7 +19,7 @@ public class MarkdownParseTester {
     
     @Test
     public void testParse2() throws IOException {
-        List<String> expectedList = List.of("a.com(())", "example.com");
+        List<String> expectedList = List.of("a.com", "a.com(())", "example.com");
         Path fileName = Path.of("labtest2.md");
 	    String contents = Files.readString(fileName);
 
