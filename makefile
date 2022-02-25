@@ -14,6 +14,3 @@ test2: MarkdownParseTest2.class MarkdownParse2.class
 
 MarkdownParseTest2.class: MarkdownParseTest2.java MarkdownParse.class
 	javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest2.java
-
-MarkdownParse.class : MarkdownParse.java
-	javac MarkdownParse.java
