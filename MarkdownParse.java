@@ -58,8 +58,6 @@ public class MarkdownParse {
             }
 
             //If valid format and website name, add link; increment for next iteration
-            System.out.println(goodFormat);
-            System.out.println(validWebsiteName);
             if(goodFormat && validWebsiteName){
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
