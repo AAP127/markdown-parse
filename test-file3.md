@@ -1,4 +1,4 @@
 [emptyFile]()
 
-
+.
 [](google)
